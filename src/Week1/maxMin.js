@@ -1,17 +1,4 @@
 
-const square = function(x) {
-    return x * x ;
-}
-console.log(square(122));
-
-
-function addition(a) {
-    return a + a;
- }
-
-console.log(addition (9));
-
-
 const findMax = function(a) {
     let max = a[0];
     for (let i = 0; i < a.length; i++) {
@@ -22,7 +9,7 @@ const findMax = function(a) {
         return max;
 }
 
-console.log(findMax([4,3,5,1,2]));
+console.log(findMax([-7,-20,-50,-5]));
 
 
 const findMin = function(a) {
@@ -35,7 +22,7 @@ const findMin = function(a) {
         return min;
 }
  
-let minimum = findMin([6,7,8,3,5,4]);
+let minimum = findMin([6,-7,8,3,5,4]);
 
 console.log (minimum);
 
