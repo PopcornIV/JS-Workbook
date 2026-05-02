@@ -14,6 +14,8 @@
 
 - Error linking the files ie index.html and Week1/Fizzbuzz.js
 - Understanding loops, where to have retuns for functions
+- Variable mismatches ie count and Count
+- Method name cases
 
 ### What I learned
 
@@ -33,3 +35,5 @@
 
 - Improve speed and confidence
 - Understanding functions and type of functions
+- Knowing what works with function i.e method names
+- learn nd correct on syntax issues
