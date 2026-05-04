@@ -24,7 +24,9 @@
 - Functions takes input and return output
 - Fuctions can be declared using the key word const or key word function
 - reverse() method can be used to reverse a string but hides logic
-- manual function is harder but builds understanding
+- Manual function is harder but builds understanding
+- Loop control
+
 
 ### Weak points
 
@@ -36,4 +38,16 @@
 - Improve speed and confidence
 - Understanding functions and type of functions
 - Knowing what works with function i.e method names
-- learn nd correct on syntax issues
+- learn and correct on syntax issues
+
+## countVowels Learnings
+
+- Need to compare character, not index
+- Direction of includes() matters
+- Loops must access actual data
+- Small syntax errors break everything
+
+### Mistakes I made
+- Compared index to vowels
+- Wrong loop direction
+- Misused includes()
