@@ -10,4 +10,4 @@ function countVowels (str) {
     return counter;
 }
 
-console.log(countVowels("wallpaper"));
+console.log(countVowels("wallpAper"));
