@@ -1,9 +1,14 @@
-const frequency = (arr) => {
+const frequency = (str) => {
   const freq = {};
-  arr.forEach((x) => {
-    freq[x] = (freq[x] || 0) + 1;
-  });
+  for (let i = 0; i < str.length; i++) {
+    const char = str[i];  
+    if (freq[char]) {
+      freq[char]++;
+    } else {
+      freq[char] = 1;
+    }
+  }
   return freq;
 };
 
-console.log(frequency(['a', 'b', 'c', 'a', 'b', 'a']));
+console.log(frequency("hello world today"));

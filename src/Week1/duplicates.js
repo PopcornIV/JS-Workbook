@@ -1,15 +1,17 @@
 
-let duplicates = (arr) => {
+const duplicates = (arr) => {
   const seen = new Set();
-  const dups = new Set();
-  arr.forEach((x) => {
-    if (seen.has(x)) {
-      dups.add(x);
+  const duplicates = new Set();
+  for (let i = 0; i < arr.length; i++) {
+    const num = arr[i];
+    if (seen.has(num)) {
+      duplicates.add(num);
     } else {
-      seen.add(x);
+      seen.add(num);
     }
-  });
-  return Array.from(dups);
-};
+  }
+  return Array.from(duplicates);
+} ;
 
-console.log(duplicates(['a', 'b', 'c', 'a', 'b', 'a']));    
+const arr = [1, 2, 3, 4, 5, 2, 3, 6];
+console.log(duplicates(arr)); 
