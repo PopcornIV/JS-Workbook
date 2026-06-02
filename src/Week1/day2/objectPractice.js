@@ -10,13 +10,29 @@ const person1 = {
 };
 
 console.log(person1.name); // Output: Robert
-console.log(person1.age); // Output: 30
-console.log(person1.occupation); // Output: developer
 
 person1.name = "Alice";
 person1.occupation = "designer";
 
-console.log(person1.name); // Output: Alice
-console.log(person1.occupation); // Output: designer
-
 person1.greet(); // Output: Hello, my name is Alice and I am a designer.
+
+// Object declaration
+const student = {
+  name: "John",
+  age: 22,
+  course: "Computer Science",
+  study() {
+    console.log(`I am studying ${this.course}`);
+  },
+};
+
+student.name = "Emily";
+student.course = "Mathematics";
+
+// Object iteration
+for (let key in student)
+  if (typeof student[key] !== "function") {
+    console.log(`${key}: ${student[key]}`);
+  }
+
+student.study(); // Output: I am studying Mathematics
