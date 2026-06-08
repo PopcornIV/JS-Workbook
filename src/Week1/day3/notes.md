@@ -96,8 +96,8 @@
 
 ## End of Day 3 Status
 
-- Looping logic: ✅ improving
-- Aggregation pattern: ✅ understood
-- Arrays of objects: ⚠ introductory
-- Algorithm thinking: ⚠ developing
-- Mental simulation: ⚠ needs consistency
+- Looping logic: improving
+- Aggregation pattern: understood
+- Arrays of objects: introductory
+- Algorithm thinking: developing
+- Mental simulation: needs consistency
